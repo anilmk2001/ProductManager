@@ -24,6 +24,9 @@ Query parameters are optional. If not provided, it will not filter results/highl
 
 # Response fields description:
 content - contains the filtered product list
+
 filter.price - contains min and max price among all products in filtered product list
+
 filter.sizes - contains the sizes among all products in filtered product list
+
 filter.frequentWords - contains most occurred words(other than top 5) from description field of all products in filtered product list

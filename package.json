@@ -1,8 +1,8 @@
 {
-  "name": "productmanagement",
+  "name": "productmanager",
   "version": "1.0.0",
   "description": "Project for managing product details",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "start": "nodemon src/server.js"
