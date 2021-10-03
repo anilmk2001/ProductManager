@@ -130,7 +130,7 @@ const getFilterDetails = (products) => {
   try {
     //Iterating product list to get details of sizes, prices, wordcount in description, from filtered product list
     products.map((product) => {
-      sizes.add(...product.sizes);
+      product.sizes.forEach(size => sizes.add(size));
       prices.add(product.price);
       let description = product.description;
       //Avoiding dot from description string, if it's the last character
